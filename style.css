@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header{
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.container{
+    max-width: 1180px ;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.right img{
+    width: 829px;
+    position: absolute;
+    right: -169px;
+}
+.text{
+    color: #FAF9F9;
+    width: 580px;
+    margin-top: 170px;
+    margin-bottom: 169px;
+} 
+h1{
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+}
+h1 span{
+   color: #FBB731; 
+   font-weight: 700;
+   font-size: 30px;
+   display: block;
+   line-height: 38px;
+   margin-bottom: 10px;
+}
+.text p{
+    font-family: 'Lato', sans-serif;
+    color: #DEDEDE;
+    font-size: 19px;
+    font-weight: 400;
+    line-height:1.4;
+    margin-bottom: 42px;
+}
+.header a,
+.main a{
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 45px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.right{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.bg{
+    /* position: absolute; */
+    width: 432px;
+    height: 100%;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+.main{
+    padding-top: 186px;
+    padding-bottom: 186px;
+}
+.promo-left,
+.promo-right{
+    flex: 0 0 49%;
+    color:#FFFFFF;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo-left{
+    background-image: url(images/burger1.png);
+    padding:116px 50px ;
+}
+.promo-right{
+    background-image:url(images/burger2.png);
+    padding:102px 50px ;
+}
+.sale{
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 5px 19px;
+    background: #F37335;
+    border-radius: 14px;
+    display: inline-block;
+}
+.cost{
+    font-size: 60px;
+    line-height: 76px;
+    font-weight: 900;
+    margin-top: 3px;
+    
+}
+.description{
+    font-family: 'Lato', sans-serif;
+    color:#FAF9F9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.free{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+.promo-right .description{
+    margin-top: 10px;
+}
+.promo-right a{
+    margin-top: 20px;
+}
+
+.footer{
+    background:#1E2F40;
+    color:#FFFFFF;
+    padding-top: 117px;
+    padding-bottom: 106px;
+}
+.logo{
+    width: 63px;
+    height: 56px;
+}
+.item h2{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.item ul,
+.tel ul {
+    list-style-type:none;
+}
+.item li{
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color:#FAF9F9;
+    font-weight: 700;
+}
+.item a{
+    color: #DEDEDE;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.item span{
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.item ul{
+    line-height: 24px;
+}
+.tel{
+    color: #FBB731;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.tel li{
+    margin-bottom: 2px;
+}
